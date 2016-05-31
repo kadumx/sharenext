@@ -1,0 +1,112 @@
+/*
+Theme Name: ShareNext
+Author: @kadumx
+Version: 1.0
+/**
+ * Table of Contents:
+ *
+ * 1.0 - Basic
+ * 2.0 - Header
+ * 3.0 - Basic Structure
+ * 4.0 - Layouts
+ * 5.0 - Navigation
+ * 6.0 - Content
+ * 7.0 - Sidebars
+ * 8.0 - Footer
+ * -----------------------------------------------------------------------------
+ */
+ @import url(https://fonts.googleapis.com/css?family=Roboto:400,700,300);
+/**
+ * 1.0 Basic
+ * -----------------------------------------------------------------------------
+ */
+ 
+html, body {
+	position: relative;
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	background: #fff;
+	font-size: 12px;
+	color: #424242;
+}
+
+a {
+	color: #293c4e;
+	-webkit-transition: 0.25s;
+	transition: 0.25s;
+}
+button,
+a:hover,
+a:active,
+a:focus {
+	color: #2e4c69;
+	outline: 0 !important;
+	text-decoration: none;
+}
+
+/* Nav */
+
+html .navbar-default  {
+	background: url("../img/bg-nav.png") repeat-x top center;
+	
+}
+
+html .navbar{
+	border: none !important;
+	border-radius: 0px !important;
+	min-height: 95px;
+	margin-bottom: 0px;
+	z-index: 999;
+}
+
+html .navbar-brand{
+	margin-top: 7px;
+}
+
+html .navbar-default .navbar-nav>li>a {
+	color: #fff;
+}
+
+html .navbar-default .navbar-nav>li>a :hover {
+	color: #fff;
+}
+
+
+.item-menu-ajuda{
+	background: #39465B;
+	width: 130px;
+	height: 94px;
+	padding-top: 23px;
+	padding-left: 27px;
+}
+
+.item-menu-cadastre{
+	background: #2BB6E9;
+	width: 130px;
+	height: 94px;
+	padding-top: 23px;
+}
+
+.item-menu-entrar{
+	background: #83D1DA;
+	width: 130px;
+	height: 94px;
+	padding-top: 23px;
+	padding-left: 20px;
+}
+
+
+/* Header */
+
+#img-header-top {
+	position: absolute;
+	top: -95px;
+}
+
+html .col-md-12 {
+   padding-right: 0px !important;
+   padding-left: 0px !important;
+}
